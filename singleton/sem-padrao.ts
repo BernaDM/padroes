@@ -11,7 +11,7 @@ class SemSingletonDatabaseConnection {
     }
   }
   
-  // Teste
+  
   const dba1 = new SemSingletonDatabaseConnection();
   const dba2 = new SemSingletonDatabaseConnection();
   
