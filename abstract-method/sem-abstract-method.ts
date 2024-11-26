@@ -1,7 +1,7 @@
-// sem-abstract-method.ts
+
 class NoAbstractProduct {
     description() {
-      return ""; // Subclasses não são obrigadas a implementar
+      return ""; 
     }
   }
   
@@ -21,7 +21,7 @@ class NoAbstractProduct {
   const livro = new NoAbstractBook();
   const camiseta = new NoAbstractShirt();
   
-  console.log(book.description());  // "Livro de programação"
-  console.log(shirt.description()); // "Camiseta de desenvolvedor"
+  console.log(book.description());  
+  console.log(shirt.description()); 
   
   
